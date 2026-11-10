@@ -10,10 +10,9 @@ from docx import Document
 from openai import OpenAI
 
 HERE = Path(__file__).resolve().parent
-DATA = HERE / "data"
 DOCS = {
-    "Shipping / Delivery": DATA / "Shipping_Delivery_Issues.docx",
-    "Refund / Return / Exchange": DATA / "Refund_Return_Exchange.docx",
+    "Shipping / Delivery": HERE / "Shipping_Delivery_Issues.docx",
+    "Refund / Return / Exchange": HERE / "Refund_Return_Exchange.docx",
 }
 EMBEDDING_MODEL = "text-embedding-ada-002"
 DEFAULT_CHAT_MODEL = "gpt-5.6-luna"
