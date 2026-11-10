@@ -16,7 +16,7 @@ DOCS = {
     "Refund / Return / Exchange": DATA / "Refund_Return_Exchange.docx",
 }
 EMBEDDING_MODEL = "text-embedding-ada-002"
-DEFAULT_CHAT_MODEL = "gpt-4.1-mini"
+DEFAULT_CHAT_MODEL = "gpt-5.6-luna"
 DEFAULT_BASE_URL = "https://hkust.azure-api.net/hkust-genai/v1/"
 
 st.set_page_config(page_title="Acme · Order Care", page_icon="📦", layout="wide", initial_sidebar_state="collapsed")
