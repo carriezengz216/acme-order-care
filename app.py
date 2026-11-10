@@ -237,7 +237,7 @@ hero_col, art_col = st.columns([1.55, 0.85], vertical_alignment="center", gap="m
 with hero_col:
     st.markdown('''<div style="padding:20px 0 8px 5px"><div class="hero-kicker">THE ORDER CARE DESK</div><div style="font:900 39px/1.15 Nunito, sans-serif;color:#673b51;letter-spacing:-1.2px">Every order deserves<br>a thoughtful reply.</div><p style="color:#89677a;font-size:14px;line-height:1.75;margin-top:13px;max-width:490px">Bring customer questions and store policies together, so your team can respond with clarity and care.</p><div class="hero-note">✦ Made for the moments after checkout</div></div>''', unsafe_allow_html=True)
 with art_col:
-    st.image(str(HERE / "assets" / "parcel.svg"), use_container_width=True)
+    st.image(str(HERE / "parcel.svg"), use_container_width=True)
 
 st.markdown('''<div class="microheading">At a glance</div><div class="legendbar">
 <div class="legend"><i>📦</i>Order enquiries</div>
